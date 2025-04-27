@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Professional Photo Frame -->
+  <rect x="200" y="100" width="400" height="400" rx="10" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- Professional Person -->
+  <!-- Head -->
+  <circle cx="400" cy="220" r="70" fill="#4776E6"/>
+  
+  <!-- Face Features -->
+  <ellipse cx="380" cy="210" rx="8" ry="10" fill="#ffffff"/>
+  <ellipse cx="420" cy="210" rx="8" ry="10" fill="#ffffff"/>
+  <path d="M385 250 Q400 270 415 250" stroke="#ffffff" stroke-width="3" fill="transparent"/>
+  
+  <!-- Shoulders and Suit -->
+  <path d="M320 300 L340 290 L400 290 L460 290 L480 300 L480 400 L320 400 Z" fill="#2c3e50"/>
+  
+  <!-- Shirt Collar -->
+  <path d="M370 290 L400 330 L430 290" fill="#ffffff"/>
+  
+  <!-- Tie -->
+  <path d="M400 330 L410 350 L400 400 L390 350 Z" fill="#e74c3c"/>
+  
+  <!-- Name Tag -->
+  <rect x="300" y="420" width="200" height="40" rx="5" fill="#4776E6"/>
+  <text x="400" y="445" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Web Developer</text>
+  
+  <!-- Professional Elements -->
+  <rect x="520" y="150" width="80" height="80" rx="5" fill="#3498db" opacity="0.8"/>
+  <rect x="540" y="170" width="40" height="6" rx="2" fill="white"/>
+  <rect x="540" y="185" width="40" height="6" rx="2" fill="white"/>
+  <rect x="540" y="200" width="25" height="6" rx="2" fill="white"/>
+  
+  <rect x="520" y="250" width="80" height="80" rx="5" fill="#2ecc71" opacity="0.8"/>
+  <rect x="540" y="270" width="40" height="6" rx="2" fill="white"/>
+  <rect x="540" y="285" width="40" height="6" rx="2" fill="white"/>
+  <rect x="540" y="300" width="25" height="6" rx="2" fill="white"/>
+  
+  <rect x="520" y="350" width="80" height="80" rx="5" fill="#e74c3c" opacity="0.8"/>
+  <rect x="540" y="370" width="40" height="6" rx="2" fill="white"/>
+  <rect x="540" y="385" width="40" height="6" rx="2" fill="white"/>
+  <rect x="540" y="400" width="25" height="6" rx="2" fill="white"/>
+  
+  <!-- Code Elements -->
+  <rect x="200" y="150" width="80" height="80" rx="5" fill="#9b59b6" opacity="0.8"/>
+  <text x="240" y="195" font-family="Courier New" font-size="14" fill="white" text-anchor="middle">&lt;/&gt;</text>
+  
+  <rect x="200" y="250" width="80" height="80" rx="5" fill="#f1c40f" opacity="0.8"/>
+  <text x="240" y="295" font-family="Courier New" font-size="14" fill="white" text-anchor="middle">{ }</text>
+  
+  <rect x="200" y="350" width="80" height="80" rx="5" fill="#1abc9c" opacity="0.8"/>
+  <text x="240" y="395" font-family="Courier New" font-size="14" fill="white" text-anchor="middle">#</text>
+  
+  <!-- Gradient overlay for professional look -->
+  <rect width="800" height="600" fill="url(#grad)" opacity="0.05"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4776E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8E54E9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

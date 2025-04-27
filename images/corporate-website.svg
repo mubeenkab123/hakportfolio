@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Corporate Website Layout -->
+  <rect x="100" y="80" width="600" height="450" rx="5" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="100" y="80" width="600" height="80" rx="5" fill="#212529"/>
+  <text x="150" y="130" font-family="Arial" font-size="24" fill="white">GlobalTech</text>
+  
+  <!-- Navigation -->
+  <text x="350" y="130" font-family="Arial" font-size="16" fill="#adb5bd">Home</text>
+  <text x="420" y="130" font-family="Arial" font-size="16" fill="#adb5bd">About</text>
+  <text x="480" y="130" font-family="Arial" font-size="16" fill="#adb5bd">Services</text>
+  <text x="560" y="130" font-family="Arial" font-size="16" fill="#adb5bd">Contact</text>
+  <rect x="620" y="115" width="60" height="30" rx="15" fill="#0d6efd"/>
+  <text x="650" y="135" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Login</text>
+  
+  <!-- Hero Section -->
+  <rect x="120" y="180" width="560" height="200" rx="5" fill="#495057"/>
+  <text x="200" y="260" font-family="Arial" font-size="32" fill="white" font-weight="bold">Enterprise Solutions</text>
+  <text x="200" y="300" font-family="Arial" font-size="18" fill="#ced4da">Transforming businesses with innovative technology</text>
+  <rect x="200" y="320" width="140" height="40" rx="20" fill="#0d6efd"/>
+  <text x="270" y="345" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Learn More</text>
+  
+  <!-- Features Section -->
+  <rect x="120" y="400" width="170" height="110" rx="5" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+  <circle cx="150" cy="430" r="15" fill="#0d6efd"/>
+  <text x="150" y="435" font-family="Arial" font-size="14" fill="white" text-anchor="middle">1</text>
+  <text x="205" y="430" font-family="Arial" font-size="16" fill="#212529" text-anchor="middle">Cloud Solutions</text>
+  <text x="205" y="455" font-family="Arial" font-size="12" fill="#6c757d" text-anchor="middle">Secure and scalable</text>
+  <text x="205" y="475" font-family="Arial" font-size="12" fill="#6c757d" text-anchor="middle">cloud infrastructure</text>
+  
+  <rect x="315" y="400" width="170" height="110" rx="5" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+  <circle cx="345" cy="430" r="15" fill="#0d6efd"/>
+  <text x="345" y="435" font-family="Arial" font-size="14" fill="white" text-anchor="middle">2</text>
+  <text x="400" y="430" font-family="Arial" font-size="16" fill="#212529" text-anchor="middle">Data Analytics</text>
+  <text x="400" y="455" font-family="Arial" font-size="12" fill="#6c757d" text-anchor="middle">Transform data into</text>
+  <text x="400" y="475" font-family="Arial" font-size="12" fill="#6c757d" text-anchor="middle">actionable insights</text>
+  
+  <rect x="510" y="400" width="170" height="110" rx="5" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+  <circle cx="540" cy="430" r="15" fill="#0d6efd"/>
+  <text x="540" y="435" font-family="Arial" font-size="14" fill="white" text-anchor="middle">3</text>
+  <text x="595" y="430" font-family="Arial" font-size="16" fill="#212529" text-anchor="middle">Cybersecurity</text>
+  <text x="595" y="455" font-family="Arial" font-size="12" fill="#6c757d" text-anchor="middle">Protect your business</text>
+  <text x="595" y="475" font-family="Arial" font-size="12" fill="#6c757d" text-anchor="middle">from threats</text>
+</svg>

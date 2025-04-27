@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0f172a"/>
+  
+  <!-- NFT Marketplace UI -->
+  <rect x="100" y="80" width="600" height="450" rx="10" fill="#1e293b"/>
+  
+  <!-- Header -->
+  <rect x="100" y="80" width="600" height="70" rx="10" fill="#334155"/>
+  <text x="150" y="125" font-family="Arial" font-size="24" fill="white">NFT Marketplace</text>
+  
+  <!-- Navigation -->
+  <text x="400" y="125" font-family="Arial" font-size="16" fill="#94a3b8">Explore</text>
+  <text x="480" y="125" font-family="Arial" font-size="16" fill="#94a3b8">Create</text>
+  <text x="550" y="125" font-family="Arial" font-size="16" fill="#94a3b8">Profile</text>
+  <circle cx="620" cy="115" r="15" fill="#8b5cf6"/>
+  <text x="620" y="120" font-family="Arial" font-size="12" fill="white" text-anchor="middle">W</text>
+  
+  <!-- Featured NFT -->
+  <rect x="120" y="170" width="280" height="340" rx="10" fill="#334155"/>
+  <rect x="140" y="190" width="240" height="200" rx="5" fill="#475569"/>
+  
+  <!-- Abstract NFT Art -->
+  <circle cx="200" cy="250" r="40" fill="#ec4899"/>
+  <rect x="250" y="220" width="80" height="80" rx="5" fill="#8b5cf6"/>
+  <polygon points="180,320 220,280 260,320" fill="#06b6d4"/>
+  
+  <text x="140" y="420" font-family="Arial" font-size="18" fill="white">Cosmic Dimensions #024</text>
+  <text x="140" y="450" font-family="Arial" font-size="16" fill="#94a3b8">Current Bid: 2.5 ETH</text>
+  <rect x="140" y="470" width="120" height="30" rx="15" fill="#8b5cf6"/>
+  <text x="200" y="490" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Place Bid</text>
+  
+  <!-- NFT Collection -->
+  <rect x="420" y="170" width="260" height="160" rx="10" fill="#334155"/>
+  <rect x="430" y="190" width="80" height="80" rx="5" fill="#475569"/>
+  <circle cx="470" cy="230" r="25" fill="#f59e0b"/>
+  
+  <rect x="520" y="190" width="80" height="80" rx="5" fill="#475569"/>
+  <rect x="535" y="205" width="50" height="50" rx="5" fill="#10b981"/>
+  
+  <rect x="610" y="190" width="60" height="80" rx="5" fill="#475569"/>
+  <polygon points="625,210 655,210 640,250" fill="#3b82f6"/>
+  
+  <text x="430" y="300" font-family="Arial" font-size="16" fill="white">Popular Collections</text>
+  <text x="430" y="320" font-family="Arial" font-size="14" fill="#94a3b8">View All</text>
+  
+  <!-- Trending Section -->
+  <rect x="420" y="350" width="260" height="160" rx="10" fill="#334155"/>
+  <text x="440" y="380" font-family="Arial" font-size="16" fill="white">Trending NFTs</text>
+  
+  <rect x="440" y="400" width="220" height="1" fill="#475569"/>
+  
+  <text x="440" y="430" font-family="Arial" font-size="14" fill="#94a3b8">1. Bored Ape #1234</text>
+  <text x="620" y="430" font-family="Arial" font-size="14" fill="#f59e0b" text-anchor="end">12.5 ETH</text>
+  
+  <text x="440" y="460" font-family="Arial" font-size="14" fill="#94a3b8">2. Crypto Punk #5678</text>
+  <text x="620" y="460" font-family="Arial" font-size="14" fill="#f59e0b" text-anchor="end">8.2 ETH</text>
+  
+  <text x="440" y="490" font-family="Arial" font-size="14" fill="#94a3b8">3. Art Blocks #9012</text>
+  <text x="620" y="490" font-family="Arial" font-size="14" fill="#f59e0b" text-anchor="end">3.7 ETH</text>
+</svg>
