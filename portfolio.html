@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View my portfolio of web development projects including cryptocurrency platforms, payment gateways, and responsive websites">
+    <title>Portfolio | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">HakPortfolio</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p>A showcase of my recent web development projects</p>
+        </div>
+    </section>
+
+    <section class="portfolio-grid scroll-animation" style="margin-top: -2rem;">
+        <div class="container">
+            <div class="projects-grid" style="margin-top: 0; gap: 2rem; justify-content: center;">
+                <!-- PACE - KUWAIT -->
+                <div class="portfolio-item" data-category="responsive">
+                    <div class="portfolio-info">
+                        <h3><a href="https://www.pacemoverskw.com/" target="_blank">PACE - KUWAIT</a></h3>
+                        <p>Movers and packers web design, this an exceptional fully customized CMS website</p>
+                        <div class="portfolio-tags">
+                            <span>WordPress</span>
+                            <span>Custom CMS</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <a href="https://www.pacemoverskw.com/" target="_blank" class="btn small-btn">Visit Website</a>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="images/Screenshot 2025-04-18 073854.png" alt="PACE - KUWAIT">
+                    </div>
+                </div>
+
+                <!-- CHERUVALLY - MALAPPURAM -->
+                <div class="portfolio-item" data-category="responsive">
+                    <div class="portfolio-info">
+                        <h3><a href="https://cheruvallyayurveda.com/" target="_blank">CHERUVALLY - MALAPPURAM</a></h3>
+                        <p>This one is a custom unique design made for cheruvally ayurveda in Malappuram</p>
+                        <div class="portfolio-tags">
+                            <span>Custom Design</span>
+                            <span>Ayurveda Website</span>
+                            <span>Healthcare</span>
+                        </div>
+                        <a href="https://cheruvallyayurveda.com/" target="_blank" class="btn small-btn">Visit Website</a>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="images/Screenshot 2025-04-18 073937.png" alt="CHERUVALLY - MALAPPURAM">
+                    </div>
+                </div>
+
+                <!-- ABSOLUTE SHINE - MALAYSIA -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-info">
+                        <h3><a href="https://www.abbsoluteshine.com/" target="_blank">ABSOLUTE SHINE - MALAYSIA</a></h3>
+                        <p>This website was developed for a health care product manufacturing company in Malaysia.</p>
+                        <div class="portfolio-tags">
+                            <span>E-commerce</span>
+                            <span>Healthcare</span>
+                            <span>Product Showcase</span>
+                        </div>
+                        <a href="https://www.abbsoluteshine.com/" target="_blank" class="btn small-btn">Visit Website</a>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="images/Screenshot 2025-04-18 074005.png" alt="ABSOLUTE SHINE - MALAYSIA">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- No Portfolio Modals Needed -->
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Interested in working together?</h2>
+                <p>Let's discuss how I can help with your next project</p>
+                <a href="contact.html" class="btn primary-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>HakPortfolio</h3>
+                    <p>Creating modern, responsive websites that drive results</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> hakeemsabir469@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 6282471435</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HakPortfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Portfolio Modal Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const modalTriggers = document.querySelectorAll('.portfolio-modal-trigger');
+            const closeModalButtons = document.querySelectorAll('.close-modal');
+            
+            modalTriggers.forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const modalId = this.getAttribute('href');
+                    document.querySelector(modalId).style.display = 'block';
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+                });
+            });
+            
+            closeModalButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const modal = this.closest('.portfolio-modal');
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto'; // Re-enable scrolling
+                });
+            });
+            
+            // Close modal when clicking outside of modal content
+            window.addEventListener('click', function(e) {
+                if (e.target.classList.contains('portfolio-modal')) {
+                    e.target.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
